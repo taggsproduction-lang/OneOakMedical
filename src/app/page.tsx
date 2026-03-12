@@ -57,11 +57,11 @@ export default function PitchDeck() {
       <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-dark via-primary to-[#0074b7] relative text-center text-white pt-20">
         <div className="relative z-10 px-6 max-w-3xl mx-auto">
           <Image
-            src="/logo-white.png"
+            src="/logo.png"
             alt="One Oak Medical"
-            width={80}
-            height={80}
-            className="mx-auto mb-6"
+            width={100}
+            height={100}
+            className="mx-auto mb-6 rounded-full bg-white p-1"
           />
           <div className="inline-block bg-white/15 border border-white/25 rounded-full px-5 py-1.5 text-xs font-medium tracking-widest uppercase mb-8">
             Social Media &amp; Content Growth Proposal
